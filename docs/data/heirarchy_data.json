@@ -1,0 +1,224 @@
+{
+  "name": "Problem Space",
+  "children": [{
+      "name": "Procurement",
+      "children": [{
+          "name": "Context"
+        },
+        {
+          "name": "Design",
+          "children": [{
+              "name": "Computational Analysis"
+            },
+            {
+              "name": "Rule-Of-Thumb"
+            }
+          ]
+        },
+        {
+          "name": "Cost"
+        },
+        {
+          "name": "Stakeholders"
+        },
+        {
+          "name": "Documentation"
+        }
+      ]
+    },
+    {
+      "name": "System",
+      "children": [{
+          "name": "Operational Energy",
+          "children": [{
+              "name": "Single-Floor System"
+            },
+            {
+              "name": "Integrated Building System"
+            }
+          ]
+        },
+        {
+          "name": "HVAC Performance",
+          "children": [{
+              "name": "Compliance"
+            },
+            {
+              "name": "Humidity"
+            },
+            {
+              "name": "Fire"
+            },
+            {
+              "name": "Temperature"
+            },
+            {
+              "name": "Acoustics"
+            },
+            {
+              "name": "Air Flow"
+            },
+            {
+              "name": "Air Pressure"
+            },
+            {
+              "name": "Warranty"
+            }
+          ]
+        },
+        {
+          "name": "Aesthetic/Perceptual Value",
+          "children": [{
+              "name": "Compliance"
+            },
+            {
+              "name": "Humidity"
+            },
+            {
+              "name": "Fire"
+            },
+            {
+              "name": "Temperature"
+            },
+            {
+              "name": "Acoustics"
+            },
+            {
+              "name": "Air Flow"
+            },
+            {
+              "name": "Air Pressure"
+            },
+            {
+              "name": "Warranty"
+            }
+          ]
+        },
+        {
+          "name": "Re-use/Recyclability",
+          "children": [{
+              "name": "Refurbishment"
+            },
+            {
+              "name": "Lifespan"
+            },
+            {
+              "name": "Storage"
+            }
+          ]
+        },
+        {
+          "name": "Operational Flexibility",
+          "children": [{
+              "name": "Formal Adapatability"
+            },
+            {
+              "name": "Sensing/Feedback Loops"
+            },
+            {
+              "name": "User-Integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manufacture",
+      "children": [{
+          "name": "Order Processing",
+          "children": [{
+              "name": "Warehouse Management System"
+            },
+            {
+              "name": "Building Information Modelling"
+            }
+          ]
+        },
+        {
+          "name": "Embodied Energy",
+          "children": [{
+              "name": "Materiality"
+            },
+            {
+              "name": "Waste Material"
+            },
+            {
+              "name": "Facility Energy Use"
+            },
+            {
+              "name": "Material-Sourcing"
+            }
+          ]
+        },
+        {
+          "name": "Manufacturing Methodologies",
+          "children": [{
+              "name": "Mechanisation"
+            },
+            {
+              "name": "Labour-Utilisation"
+            },
+            {
+              "name": "Precision"
+            },
+            {
+              "name": "Quality"
+            }
+          ]
+        },
+        {
+          "name": "Storage & Logistics",
+          "children": [{
+              "name": "Inventory Control"
+            },
+            {
+              "name": "Storage Footprint"
+            },
+            {
+              "name": "Transport & Delivery"
+            }
+          ]
+        },
+        {
+          "name": "Lead Times"
+        }
+      ]
+    },
+    {
+      "name": "Installation",
+      "children": [{
+          "name": "Installation Timeframes",
+          "children": [{
+              "name": "Labour-Utilisation"
+            },
+            {
+              "name": "Contractor Coordination"
+            }
+          ]
+        },
+        {
+          "name": "Installation Methodology",
+          "children": [{
+              "name": "Construction Tolerances"
+            },
+            {
+              "name": "Skilled Labourer's"
+            },
+            {
+              "name": "Mechanisation/Robotics"
+            }
+          ]
+        },
+        {
+          "name": "Aesthetic/Perceptial Value"
+        },
+        {
+          "name": "Re-use/Recyclability"
+        },
+        {
+          "name": "Operational Flexibility"
+        }
+      ]
+    }
+  ]
+}

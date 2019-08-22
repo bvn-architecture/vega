@@ -1,0 +1,276 @@
+[{
+  "id": 1,
+  "name": "Problem Space"
+}, {
+  "id": 2,
+  "name": "Installation",
+  "parent": 1
+}, {
+  "id": 3,
+  "name": "Operational Flexibility",
+  "parent": 2
+}, {
+  "id": 4,
+  "name": "Re-use/Recyclability",
+  "parent": 2
+}, {
+  "id": 5,
+  "name": "Aesthetic/Perceptial Value",
+  "parent": 2
+}, {
+  "id": 6,
+  "name": "Installation Methodology",
+  "parent": 2
+}, {
+  "id": 7,
+  "name": "Mechanisation/Robotics",
+  "parent": 6
+}, {
+  "id": 8,
+  "name": "Skilled Labourer's",
+  "parent": 6
+}, {
+  "id": 9,
+  "name": "Construction Tolerances",
+  "parent": 6
+}, {
+  "id": 10,
+  "name": "Installation Timeframes",
+  "parent": 2
+}, {
+  "id": 11,
+  "name": "Contractor Coordination",
+  "parent": 10
+}, {
+  "id": 12,
+  "name": "Labour-Utilisation",
+  "parent": 10
+}, {
+  "id": 13,
+  "name": "Manufacture",
+  "parent": 1
+}, {
+  "id": 14,
+  "name": "Lead Times",
+  "parent": 13
+}, {
+  "id": 15,
+  "name": "Storage & Logistics",
+  "parent": 13
+}, {
+  "id": 16,
+  "name": "Transport & Delivery",
+  "parent": 15
+}, {
+  "id": 17,
+  "name": "Storage Footprint",
+  "parent": 15
+}, {
+  "id": 18,
+  "name": "Inventory Control",
+  "parent": 15
+}, {
+  "id": 19,
+  "name": "Manufacturing Methodologies",
+  "parent": 13
+}, {
+  "id": 20,
+  "name": "Quality",
+  "parent": 19
+}, {
+  "id": 21,
+  "name": "Precision",
+  "parent": 19
+}, {
+  "id": 22,
+  "name": "Labour-Utilisation",
+  "parent": 19
+}, {
+  "id": 23,
+  "name": "Mechanisation",
+  "parent": 19
+}, {
+  "id": 24,
+  "name": "Embodied Energy",
+  "parent": 13
+}, {
+  "id": 25,
+  "name": "Material-Sourcing",
+  "parent": 24
+}, {
+  "id": 26,
+  "name": "Facility Energy Use",
+  "parent": 24
+}, {
+  "id": 27,
+  "name": "Waste Material",
+  "parent": 24
+}, {
+  "id": 28,
+  "name": "Materiality",
+  "parent": 24
+}, {
+  "id": 29,
+  "name": "Order Processing",
+  "parent": 13
+}, {
+  "id": 30,
+  "name": "Building Information Modelling",
+  "parent": 29
+}, {
+  "id": 31,
+  "name": "Warehouse Management System",
+  "parent": 29
+}, {
+  "id": 32,
+  "name": "System",
+  "parent": 1
+}, {
+  "id": 33,
+  "name": "Operational Flexibility",
+  "parent": 32
+}, {
+  "id": 34,
+  "name": "User-Integration",
+  "parent": 33
+}, {
+  "id": 35,
+  "name": "Sensing/Feedback Loops",
+  "parent": 33
+}, {
+  "id": 36,
+  "name": "Formal Adapatability",
+  "parent": 33
+}, {
+  "id": 37,
+  "name": "Re-use/Recyclability",
+  "parent": 32
+}, {
+  "id": 38,
+  "name": "Storage",
+  "parent": 37
+}, {
+  "id": 39,
+  "name": "Lifespan",
+  "parent": 37
+}, {
+  "id": 40,
+  "name": "Refurbishment",
+  "parent": 37
+}, {
+  "id": 41,
+  "name": "Aesthetic/Perceptual Value",
+  "parent": 32
+}, {
+  "id": 42,
+  "name": "Warranty",
+  "parent": 41
+}, {
+  "id": 43,
+  "name": "Air Pressure",
+  "parent": 41
+}, {
+  "id": 44,
+  "name": "Air Flow",
+  "parent": 41
+}, {
+  "id": 45,
+  "name": "Acoustics",
+  "parent": 41
+}, {
+  "id": 46,
+  "name": "Temperature",
+  "parent": 41
+}, {
+  "id": 47,
+  "name": "Fire",
+  "parent": 41
+}, {
+  "id": 48,
+  "name": "Humidity",
+  "parent": 41
+}, {
+  "id": 49,
+  "name": "Compliance",
+  "parent": 41
+}, {
+  "id": 50,
+  "name": "HVAC Performance",
+  "parent": 32
+}, {
+  "id": 51,
+  "name": "Warranty",
+  "parent": 50
+}, {
+  "id": 52,
+  "name": "Air Pressure",
+  "parent": 50
+}, {
+  "id": 53,
+  "name": "Air Flow",
+  "parent": 50
+}, {
+  "id": 54,
+  "name": "Acoustics",
+  "parent": 50
+}, {
+  "id": 55,
+  "name": "Temperature",
+  "parent": 50
+}, {
+  "id": 56,
+  "name": "Fire",
+  "parent": 50
+}, {
+  "id": 57,
+  "name": "Humidity",
+  "parent": 50
+}, {
+  "id": 58,
+  "name": "Compliance",
+  "parent": 50
+}, {
+  "id": 59,
+  "name": "Operational Energy",
+  "parent": 32
+}, {
+  "id": 60,
+  "name": "Integrated Building System",
+  "parent": 59
+}, {
+  "id": 61,
+  "name": "Single-Floor System",
+  "parent": 59
+}, {
+  "id": 62,
+  "name": "Procurement",
+  "parent": 1
+}, {
+  "id": 63,
+  "name": "Documentation",
+  "parent": 62
+}, {
+  "id": 64,
+  "name": "Stakeholders",
+  "parent": 62
+}, {
+  "id": 65,
+  "name": "Cost",
+  "parent": 62
+}, {
+  "id": 66,
+  "name": "Design",
+  "parent": 62
+}, {
+  "id": 67,
+  "name": "Rule-Of-Thumb",
+  "parent": 66
+}, {
+  "id": 68,
+  "name": "Computational Analysis",
+  "parent": 66
+}, {
+  "id": 69,
+  "name": "Context",
+  "parent": 62
+}]
