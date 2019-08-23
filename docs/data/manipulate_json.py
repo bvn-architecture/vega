@@ -1,4 +1,5 @@
 import json
+import random
 
 flare_type_empty_list = []
 with open('vega/docs/data/heirarchy_data.json') as f:
@@ -30,7 +31,7 @@ with open("vega/docs/data/heirarchy_data_mod.json", "w") as f:
 # Create dependencies file
 ids = [x['id'] for x in flare_type_parent_child]
 count = 0
-while count < 10:
+while count < 100:
     a = random.choice(flare_type_parent_child)
     b = random.choice(flare_type_parent_child)
     if a["parent"] != b["id"] and a["id"] != b["parent"] and a["id"] != b["id"]:

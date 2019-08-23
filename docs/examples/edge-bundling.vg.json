@@ -143,11 +143,12 @@
     },
     {
       "name": "leaves",
-      "source": "tree",
-      "transform": [{
-        "type": "filter",
-        "expr": "!datum.children"
-      }]
+      "source": "tree"
+      // ,
+      // "transform": [{
+      //   "type": "filter",
+      //   "expr": "!datum.children"
+      // }]
     },
     {
       "name": "dependencies",
