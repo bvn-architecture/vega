@@ -200,15 +200,24 @@
           "align": {
             "signal": "datum.leftside ? 'right' : 'left'"
           },
-          "fontSize": {
-            "signal": "textSize"
-          },
+          "fontSize": [{
+              "test": "!datum.children",
+              "signal": "textSize"
+            },
+            {
+              "signal": "1.1*textSize"
+            }
+          ],
           "fontWeight": [{
               "test": "indata('selected', 'source', datum.id)",
               "value": "bold"
             },
             {
               "test": "indata('selected', 'target', datum.id)",
+              "value": "bold"
+            },
+            {
+              "test": "datum.children",
               "value": "bold"
             },
             {
@@ -297,7 +306,7 @@
   "scales": [{
     "name": "color",
     "type": "ordinal",
-    "domain": ["depends on", "imported by"],
+    "domain": ["is blocked by", "unlocks"],
     "range": [{
       "signal": "colorIn"
     }, {
