@@ -277,7 +277,7 @@
                 "signal": "colorIn"
               },
               {
-                "value": "steelblue"
+                "value": "LightBlue"
               }
             ],
             "strokeOpacity": [{
@@ -306,7 +306,7 @@
   "scales": [{
     "name": "color",
     "type": "ordinal",
-    "domain": ["is blocked by", "unlocks"],
+    "domain": ["affected by", "affects"],
     "range": [{
       "signal": "colorIn"
     }, {
